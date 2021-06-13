@@ -1,0 +1,20 @@
+#category {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+#categoryDetail{
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+
+}
+.category.strCategory {
+    font-size: 45px;
+    color: chartreuse;
+}
+#categoryDetail img {
+    width: 400px;
+}
